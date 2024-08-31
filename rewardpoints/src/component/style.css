@@ -1,0 +1,65 @@
+.main-content {
+    
+    justify-content: space-between;
+    
+    min-height: 100vh;
+    
+    flex-direction: column;
+}
+    .rewards {
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    margin: 10px;
+    
+    width: 100%;
+    
+    }
+    
+   
+    .customer-details { 
+        color: black; 
+        text-align: center; 
+        width: 50%; 
+        gap: 10px;
+    
+    }
+     
+        .customer-details table {
+
+            width: 100%;
+            
+            border-collapse: collapse;
+            
+            /* gap: 10px; */
+            
+            
+            
+            }
+            
+            .customer-details table th {
+            
+            background-color: #f2f2f2;
+            
+            color: black; border: 1px solid black; padding: 5px 5px 5px 5px; 
+            }
+            .customer-details table th tr { 
+            background-color: #d34d4d ;
+            color: rgb(109, 103, 103);
+            border : 1px solid black;
+            }       
+          
+            
+            
+        .customer-table-data{
+            
+            color: black;
+            padding: 10px;
+            gap:10px;
+        }
+        .customer-table td{
+            gap:10px;
+            border:solid;
+        }
